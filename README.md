@@ -23,15 +23,15 @@
 ###
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="30" alt="jupyter logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="flutter logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=visualstudio" height="30" alt="visualstudio logo"  />
+  <img src="https://skillicons.dev/icons?i=visualstudio" height="40" alt="visualstudio logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=autocad" height="30" alt="autocad logo"  />
+  <img src="https://skillicons.dev/icons?i=autocad" height="40" alt="autocad logo"  />
 </div>
 
 ###
