@@ -1,59 +1,25 @@
-###
+# About ME
 
-<h1 align="left">Hi there 👋</h1>
+- I’m an undergraduate student majoring in **Industrial & Management Engineering** at **Incheon National University**.  
+- I’m passionate about **Data analysis**, **CRM**.  
+- Currently working on projects in **E-Commerce Analytics**.  
+- How to reach me: **jun010914@inu.ac.kr**  
 
-###
+For more information about me and my projects, click [here](https://your-portfolio-link.com).
 
-<p align="left">My name is junhyung Lee and I'm pre- data analyst & scientist</p>
+---
 
-###
+## Tools and Webpages
 
-<h2 align="left">👉About Me</h2>
+- **Tools:**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) 
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) 
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) 
+![AutoCAD](https://img.shields.io/badge/AutoCAD-CC0000?style=for-the-badge&logo=autodesk&logoColor=white)
+   
+- **GitHub:** [https://github.com/junhyung-L](https://github.com/junhyung-L)   
 
-###
-
-<p align="left">🔭 I’m currently working on undergraduate researcher<br>📖 I’m preparing to be  data analyst & scientist<br>🎯Goals: Being a data analyst who solves people's problems<br>🌟I am interested in finance, fashion, and the environment</p>
-
-###
-
-<h2 align="left">I code with (etc)</h2>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=visualstudio" height="40" alt="visualstudio logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=autocad" height="40" alt="autocad logo"  />
-</div>
-
-###
-
-<div align="left">
-  <a href="https://www.instagram.com/overluster/"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=flat" height="25" alt="instagram logo"  />
-  <a href="a99115334@gmail.com"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=flat" height="25" alt="gmail logo"  />
-  <a href="https://discord.gg/uNBXCqqV"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=flat" height="25" alt="discord logo"  />
-</div>
-
-###
-
-<h3 align="left">MY STATS</h3>
-
-###
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=junhyung-L&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=gotham&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=junhyung-L&locale=en&mode=daily&theme=gotham&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-</div>
-
-###
-
-
-
+---
 
 
