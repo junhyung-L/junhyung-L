@@ -5,7 +5,7 @@
 - Currently working on projects in **E-Commerce Analytics**.  
 - How to reach me: **jun010914@inu.ac.kr**  
 
-For more information about me and my projects, click [here](https://your-portfolio-link.com).
+For more information about me and my projects, click [here](https://github.com/junhyung-L/Portfolio).
 
 ---
 
