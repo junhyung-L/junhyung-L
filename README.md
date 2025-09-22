@@ -2,7 +2,7 @@
 
 - I’m an undergraduate student majoring in **Industrial & Management Engineering** at **Incheon National University**.  
 - I’m passionate about **Data analysis**, **CRM**.  
-- Currently working on projects in **E-Commerce Analytics**.  
+- Currently working on projects in **E-Commerce Marketing Mix Analytics**.  
 - How to reach me: **jun010914@inu.ac.kr**  
 
 For more information about me and my projects, click [here](https://github.com/junhyung-L/Resume).
