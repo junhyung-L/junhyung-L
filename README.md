@@ -17,6 +17,7 @@ For more information about me and my projects, click [here](https://github.com/j
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) 
 ![AutoCAD](https://img.shields.io/badge/AutoCAD-CC0000?style=for-the-badge&logo=autodesk&logoColor=white)
+![SolidWorks](https://img.shields.io/badge/SolidWorks-27408B?style=for-the-badge&logo=solidworks&logoColor=white)
    
 - **GitHub:** [https://github.com/junhyung-L](https://github.com/junhyung-L)   
 
