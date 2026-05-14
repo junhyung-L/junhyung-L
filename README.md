@@ -54,8 +54,6 @@
 
 ### 📬 Contact & Links
 - 📧 **Email**: [jun010914@inu.ac.kr](mailto:jun010914@inu.ac.kr)
-- 📄 **[Elite Resume](https://github.com/junhyung-L/Resume)** | 📊 **[Master Portfolio](https://github.com/junhyung-L/Portfolio)**
+- 📄 **[Resume](https://github.com/junhyung-L/Resume)** | 📊 **[Master Portfolio](https://github.com/junhyung-L/Portfolio)**
 
----
-### 📈 GitHub Stats
-[![Junhyung's GitHub stats](https://github-readme-stats.vercel.app/api?username=junhyung-L&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
