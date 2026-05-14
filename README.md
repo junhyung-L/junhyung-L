@@ -1,6 +1,6 @@
 # 🚀 Hi there, I'm Jun-hyung Lee (이준형)!
 
-> **Data Analyst & AI Engineer** specializing in Data-Centric AI and Explainable AI (XAI). 
+> **Data Analyst & AI Engineer** specializing in Data-Centric AI and Explainable AI (XAI).\
 > **실제 비즈니스 ROI를 창출하는 문제 해결 중심의 데이터 분석가 / AI 엔지니어입니다.**
 
 ---
