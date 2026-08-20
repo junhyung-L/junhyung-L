@@ -1,59 +1,74 @@
-# 🚀 Hi there, I'm Jun-hyung Lee (이준형)!
+# 이준형 | Data Scientist & AI Engineer
 
-> **Data Scientist & Analyst** specializing in Data-Centric AI and Explainable AI (XAI).\
-> **실제 비즈니스 ROI를 창출하는 문제 해결 중심의 데이터 사이언티스트 / 분석가입니다.**
+정형 데이터·시계열·공간 데이터를 분석합니다. 모델 점수만 보여 주기보다 어떤 데이터로 검증했는지와 결과를 어디까지 해석할 수 있는지를 함께 정리합니다.
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
-### 🏆 The "Triple Crown" (Major Achievements)
-- 🥇 **Grand Prize** (1st Place) | 2024 Forestry Statistics Smart Competition (Korea Forest Service)
-- 🥇 **Grand Prize** (1st Place) | 2025 PBL Program for Urban Revitalization (Incheon City)
-- 🥇 **Gold Prize** | 2025 Industry-Academic Capstone Design Competition (Incheon University)
+## 수상 프로젝트
 
----
+- **대상 · 산림임업 통계 스마트 경진대회** — 산림청·한국임업진흥원, 2024.12.13
+  - [Forestry-Yield-Prediction](https://github.com/junhyung-L/Forestry-Yield-Prediction): GIS·기후·토양·생산 데이터를 연결해 작물 적합지와 생산량을 분석했습니다.
+- **대상 · 2025 PBL 프로그램** — 인천광역시장상, 2026.02.27
+  - [O2O-Growth-Hacking](https://github.com/junhyung-L/O2O-Growth-Hacking): Marketing & Data Analysis 역할로 공실 데이터와 현장 조사 내용을 정리하고, 마담티 30일 마케팅 파일럿에 참여했습니다.
+- **금상 · 산학 캡스톤디자인 경진대회** — 인천대학교, 2025.07.01
+  - [eEum-Policy-Simulation](https://github.com/junhyung-L/eEum-Policy-Simulation): 예산 제약 아래 66개 캐시백 정책 시나리오를 비교했습니다.
 
-### 📂 Projects & Repositories
+상장 사본은 개인 정보 때문에 공개하지 않으며, 요청 시 제공할 수 있습니다.
 
-#### 🌟 Flagship Projects (Awards & Publications)
-*공인된 기관에서 수상하였거나 학술적으로 검증된 대표 프로젝트입니다.*
+## 연구
 
-- 🌲 **[Forestry-Yield-Prediction](https://github.com/junhyung-L/Forestry-Yield-Prediction)**: Crop yield prediction & optimal site recommendation using GIS. *(Grand Prize)*
-- 🏪 **[O2O-Growth-Hacking](https://github.com/junhyung-L/O2O-Growth-Hacking)**: Traditional market revitalization. Achieved 600% traffic growth. *(Grand Prize)*
-- 💳 **[eEum-Policy-Simulation](https://github.com/junhyung-L/eEum-Policy-Simulation)**: Cashback policy simulation using LPF and Hurst exponent. *(Gold Prize)*
-- 📉 **[Marketing-Fatigue-Analysis](https://github.com/junhyung-L/Marketing-Fatigue-Analysis)**: Mathematical decay modeling on 170M+ events. *(Paper Under Review)*
+### [마케팅 피로도와 구매 전환 예측](https://github.com/junhyung-L/Marketing-Fatigue-Analysis)
+
+REES46의 약 1억 7,200만 건 다채널 CRM 로그(약 185만 고객, 1,907개 캠페인)를 바탕으로 구매·재구매 주기, 시계열 반응, 마케팅 피로도, 채널 효과성 피처를 설계했습니다. 논문 원고의 원분포 holdout에서 XGBoost는 F1 0.3806, PR-AUC 0.3620을 기록했습니다. 상위 0.78%를 고르는 타겟팅 민감도 분석은 전환 95.83%를 포착하고 발송 대상 수를 99.22% 줄였다고 보고합니다. 이는 오프라인 모의 선별 결과이지 실제 비용 절감이나 인과 효과가 아닙니다.
+
+## 대표 프로젝트
+
+| 프로젝트 | 구현·분석 초점 | 확인 가능한 결과 |
+|---|---|---|
+| [Toss-CTR-Prediction](https://github.com/junhyung-L/Toss-CTR-Prediction) | DCN-V2와 DIN·DIEN·BST 행동 시퀀스 인코더, 262,144개 해시 버킷 | DIEN 검증 ROC-AUC 0.7413, PR-AUC 0.0792 |
+| [EV-Price-Forecasting](https://github.com/junhyung-L/EV-Price-Forecasting) | 배터리 용량 모델 기반 대체와 XGBoost 가격 회귀 | 사용자 확인 DACON 정규화 RMSE 0.919 |
+| [Credit-Card-Segmentation](https://github.com/junhyung-L/Credit-Card-Segmentation) | 약 24만 고객·857개 변수의 결측 처리와 세그먼트 분류 | 2만 건 검증에서 스태킹 weighted F1 0.8936 |
+| [AI-Job-Simulator](https://github.com/junhyung-L/AI-Job-Simulator) | Next.js 역할극·피드백 API, 실제 LLM·데모 모드 분리 | 9개 시나리오와 선택적 Supabase 세션 기록 구현 |
+
+각 수치는 해당 저장소의 문서·실험 산출물 기준입니다. 데이터 분할, 원본 데이터 공개 여부, 리더보드와 holdout의 차이는 프로젝트 README에서 분리해 설명합니다.
+
+## 링크
+
+[포트폴리오](https://github.com/junhyung-L/Portfolio) · [이력서](https://github.com/junhyung-L/Resume) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:jun010914@inu.ac.kr)
 
 <details>
-<summary><b>🔍 Click to view 7 more projects (더 많은 프로젝트 보기)</b></summary>
+<summary>English</summary>
 
-#### 🧠 Deep Learning & RecSys
-- 📊 **[Toss-CTR-Prediction](https://github.com/junhyung-L/Toss-CTR-Prediction)**: Hybrid recommendation architecture (DCN-V2 + DIN) for sparse data.
+## Junhyung Lee | Data Scientist & AI Engineer
 
-#### 🤖 LLM & Simulation
-- 🎭 **[AI-Job-Simulator](https://github.com/junhyung-L/AI-Job-Simulator)**: LLM-based roleplay simulator with under 5s latency.
-- 🔮 **[Dongwon-Demand-Forecast](https://github.com/junhyung-L/Dongwon-Demand-Forecast)**: Cold-start demand forecast using LLM Agent & Monte Carlo.
+I build decision-ready analyses with an emphasis on interpretable modelling, evidence boundaries, and reproducible workflows across tabular, time-series, and spatial data.
 
-#### 📈 Big Data & Healthcare & Mobility
-- 🖥️ **[Credit-Card-Segmentation](https://github.com/junhyung-L/Credit-Card-Segmentation)**: Distributed processing on 2.4M data using Dask.
-- 🏥 **[Depression-Risk-Prediction](https://github.com/junhyung-L/Depression-Risk-Prediction)**: White-box modeling for high explainability (F1 0.90).
-- 🚗 **[EV-Price-Forecasting](https://github.com/junhyung-L/EV-Price-Forecasting)**: Precise price regression with multicollinearity control.
-- 🚶‍♂️ **[Elderly-Fall-Prevention](https://github.com/junhyung-L/Elderly-Fall-Prevention)**: GIS-based minimum risk walking path algorithm.
+### Awards
+
+- **Grand Prize, 2024 Forestry Statistics Smart Competition** — Korea Forest Service and Korea Forestry Promotion Institute, 13 Dec 2024. [Forestry-Yield-Prediction](https://github.com/junhyung-L/Forestry-Yield-Prediction) combines GIS, climate, soil, and production data for crop suitability and yield analysis.
+- **Grand Prize, 2025 PBL Program** — Incheon Metropolitan City Mayor Award, 27 Feb 2026. In the recorded Marketing & Data Analysis role, I supported a 30-day Madam Tea marketing pilot based on field research and vacant-store data.
+- **Gold Prize, Industry-Academic Capstone Design Competition** — Incheon National University, 1 Jul 2025. [eEum-Policy-Simulation](https://github.com/junhyung-L/eEum-Policy-Simulation) compares 66 budget-constrained cashback scenarios.
+
+Original certificates are private because they contain personal data and are available on request.
+
+### Research
+
+#### [Marketing Fatigue and Purchase Conversion Prediction](https://github.com/junhyung-L/Marketing-Fatigue-Analysis)
+
+Using approximately 172 million REES46 multichannel CRM logs (about 1.85 million customers and 1,907 campaigns), I designed purchase-cycle, temporal-response, fatigue, and channel-effectiveness features. The manuscript reports XGBoost F1 0.3806 and PR-AUC 0.3620 on its original-distribution holdout. Its top-0.78% targeting analysis captures 95.83% of conversions while selecting 99.22% fewer candidates; this is an offline ranking simulation, not realised savings or causal uplift.
+
+### Selected projects
+
+| Project | Focus | Retained result |
+|---|---|---|
+| [Toss-CTR-Prediction](https://github.com/junhyung-L/Toss-CTR-Prediction) | DCN-V2 with DIN/DIEN/BST sequence encoders and 262,144 hash buckets | DIEN validation ROC-AUC 0.7413, PR-AUC 0.0792 |
+| [EV-Price-Forecasting](https://github.com/junhyung-L/EV-Price-Forecasting) | Model-based battery-capacity imputation and XGBoost price regression | User-confirmed DACON normalized RMSE 0.919 |
+| [Credit-Card-Segmentation](https://github.com/junhyung-L/Credit-Card-Segmentation) | Missingness-aware classification over ~240k customers and 857 features | Stacking weighted F1 0.8936 on a 20k validation sample |
+| [AI-Job-Simulator](https://github.com/junhyung-L/AI-Job-Simulator) | Next.js roleplay and feedback APIs, with live LLM and demo paths | Nine scenarios and optional Supabase session history |
+
+[Portfolio](https://github.com/junhyung-L/Portfolio) · [Resume](https://github.com/junhyung-L/Resume) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:jun010914@inu.ac.kr)
 
 </details>
-
----
-
-### 🛠 Tech Stack
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Dask](https://img.shields.io/badge/Dask-F7931E?style=for-the-badge&logo=dask&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-669DF2?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-
----
-
-### 📬 Contact & Links
-- 📧 **Email**: [jun010914@inu.ac.kr](mailto:jun010914@inu.ac.kr)
-- 📄 **[Resume](https://github.com/junhyung-L/Resume)** | 📊 **[Master Portfolio](https://github.com/junhyung-L/Portfolio)**
-
-
