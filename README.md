@@ -3,6 +3,7 @@
 <details>
 <summary>한국어</summary>
 
+
 고객·정책·공간 데이터를 분석해 더 나은 의사결정에 필요한 근거를 만듭니다.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
