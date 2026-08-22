@@ -1,5 +1,3 @@
-# Junhyung Lee | Data Scientist
-
 <details>
 <summary>한국어</summary>
 
@@ -47,6 +45,8 @@ REES46 다채널 CRM 로그 약 1억 7,200만 건(고객 약 185만 명, 캠페�
 </details>
 
 ---
+
+# Junhyung Lee | Data Scientist
 
 I turn customer, policy, and spatial data into evidence for better decisions.
 
