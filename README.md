@@ -1,7 +1,5 @@
 # Junhyung Lee | Data Scientist
 
-[한국어](#이준형--data-scientist)
-
 I turn customer, policy, and spatial data into evidence for better decisions.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -40,9 +38,10 @@ Each figure is based on the documentation and experiment artifacts in its projec
 
 ---
 
-# 이준형 | Data Scientist
+<details>
+<summary>한국어</summary>
 
-[English](#junhyung-lee--data-scientist)
+# 이준형 | Data Scientist
 
 고객·정책·공간 데이터를 분석해 더 나은 의사결정에 필요한 근거를 만듭니다.
 
@@ -82,3 +81,5 @@ REES46 다채널 CRM 로그 약 1억 7,200만 건(고객 약 185만 명, 캠페�
 ## 링크
 
 [포트폴리오](https://github.com/junhyung-L/Portfolio/blob/main/README.ko.md) · [이력서](https://github.com/junhyung-L/Resume) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:jun010914@inu.ac.kr)
+
+</details>
