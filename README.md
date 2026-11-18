@@ -3,7 +3,7 @@
 고객·정책·공간 데이터로 예측 모델과 의사결정 시뮬레이션을 만들고, 각 결과가 어디까지 유효한지 함께 밝힙니다.
 
 - **현재** 하나금융융합기술원 BigData&AI Cell 인턴 (2026.07–)
-- **연구** [DIVE Lab](https://github.com/thekimk/DIVE-Research) 학부연구생 (2025.02–2026.02) — 마케팅 피로도의 처치 효과를 위한 인과추론·준실험 설계
+- **연구** 인천대학교 [DIVE Lab](https://github.com/thekimk/DIVE-Research) 학부연구생 (2025.02–2026.02), 구매 전환 예측 논문 제1저자, 마케팅 피로도 인과추론 후속 연구 진행 중
 - **관심** Machine Learning · RecSys · GIS · Causal Inference · XAI
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -11,28 +11,29 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
-## 수상 프로젝트
-
-| 수상 | 프로젝트 | 내용 |
-|---|---|---|
-| **대상** · 2024 임업통계 스마트활용 경진대회 (산림청·한국임업진흥원, 2024.12) | [forestry-crop-suitability](https://github.com/junhyung-L/forestry-crop-suitability) | GIS·기후·토양·생산 데이터를 연결해 작물 적합지와 생산량 분석 |
-| **대상** · 2025 PBL 프로그램 인천광역시장상 (2026.02) | [dongincheon-marketing-pilot](https://github.com/junhyung-L/dongincheon-marketing-pilot) | Marketing & Data Analysis 역할, 공실 데이터·현장 조사 기반 마담티 30일 마케팅 파일럿 |
-| **금상** · 인천대학교 산학 캡스톤디자인 경진대회 (2025.07) | [incheon-eeum-policy-simulation](https://github.com/junhyung-L/incheon-eeum-policy-simulation) | 예산 제약 아래 66개 캐시백 정책 시나리오 비교 |
-
 ## 연구
 
-**[마케팅 피로도와 구매 전환 예측](https://github.com/junhyung-L/crm-conversion-prediction)** — 제1저자 논문, 『마케팅연구』(한국마케팅학회) 2026.11 게재 예정. REES46 다채널 CRM 로그 약 1억 7,200만 건(고객 약 185만 명, 캠페인 1,907개)에서 구매 주기·반응 시점·피로도·채널 효과성 피처를 설계했습니다. 원고의 원분포 holdout에서 XGBoost F1 0.3806, PR-AUC 0.3620. 점수 상위 0.78%만 선별하면 전환의 95.83%를 포착하며, 이때 정밀도는 15.26%로 무작위 발송 대비 123.7배입니다. 오프라인 순위 결과이며 실제 캠페인 성과는 아닙니다.
+**[동태적 마케팅 지식 기반 구매 전환 예측](https://github.com/junhyung-L/crm-conversion-prediction)** · 제1저자, 『마케팅연구』(한국마케팅학회) 2026.11 게재 예정
+
+전환율 0.1234%인 CRM 메시지 1억 7,200만 건에서 마케팅 이론 기반 피처 4묶음을 설계해 XGBoost PR-AUC를 0.3177에서 0.3620으로 높였습니다(9종 모형 중 최고). 상위 0.78% 메시지가 전환의 95.83%를 포착합니다(정밀도 15.26%, 무작위 대비 123.7배, holdout 기준).
 
 ## 대표 프로젝트
 
-| 프로젝트 | 구현·분석 초점 | 결과 (측정 조건) |
+| 프로젝트 | 무엇을 했나 | 결과 (측정 조건) |
 |---|---|---|
-| [ctr-sequence-modeling](https://github.com/junhyung-L/ctr-sequence-modeling) | DCN-V2 + DIN·DIEN·BST 행동 시퀀스 인코더, 262,144개 해시 버킷 | DIEN 검증 ROC-AUC 0.7413, PR-AUC 0.0792 |
-| [used-ev-price-forecasting](https://github.com/junhyung-L/used-ev-price-forecasting) | 배터리 용량 모델 기반 대체 + XGBoost 가격 회귀 | DACON 리더보드 정규화 RMSE 0.919 |
-| [credit-card-customer-segmentation](https://github.com/junhyung-L/credit-card-customer-segmentation) | 학습 240만 행·857개 변수의 결측 처리와 세그먼트 분류 | 2만 건 검증 스태킹 weighted F1 0.8936 |
-| [ai-interview-simulator](https://github.com/junhyung-L/ai-interview-simulator) | Next.js 역할극·피드백 API, 실제 LLM·데모 모드 분리 | 9개 시나리오, 선택적 Supabase 세션 기록 |
+| [DCN-V2와 행동 시퀀스 인코더를 활용한 CTR 예측](https://github.com/junhyung-L/ctr-sequence-modeling) | DCN-V2에 DIN·DIEN·BST 시퀀스 인코더를 붙여 비교 | DIEN 검증 PR-AUC 0.0792(무작위 대비 약 4배), ROC-AUC 0.7413 |
+| [신용카드 고객 세그먼트 분류](https://github.com/junhyung-L/credit-card-customer-segmentation) | 학습 240만 행·857개 컬럼의 결측 패턴별 처리와 스태킹 | DACON private 0.6251(58위·상위 25%), 내부 표본 weighted F1 0.8936(다수 클래스 0.7026) |
+| [중고 전기차 가격 예측](https://github.com/junhyung-L/used-ev-price-forecasting) | 배터리 용량 대체 모델과 XGBoost 가격 회귀 분리 | DACON 리더보드 정규화 RMSE 0.919 |
 
-수치마다 측정 조건(검증·holdout·리더보드·시뮬레이션)이 다릅니다. 데이터 분할과 공개 범위는 각 저장소 README에 정리했습니다. 전체 11개 프로젝트는 [포트폴리오](https://github.com/junhyung-L/Portfolio/blob/main/README.ko.md)에 있습니다.
+## 수상
+
+| 대회 · 상격 · 날짜 | 프로젝트 | 내용 |
+|---|---|---|
+| 2024 임업통계 스마트활용 경진대회 · **대상**(산림청장상) · 2024.12.13 | [산림 작물 적합지·생산량 분석](https://github.com/junhyung-L/forestry-crop-suitability) | GIS 토양 레이어·기후·생산 데이터로 7개 작물의 적합지와 생산량 분석 |
+| 2025 PBL 프로그램 · **대상**(인천광역시장상) · 2026.02.27 | [동인천 원도심 상권 마케팅 파일럿](https://github.com/junhyung-L/dongincheon-marketing-pilot) | Marketing & Data Analysis 역할, 공실 데이터·상인 인터뷰 기반 30일 매장 파일럿 |
+| 2025 인천대학교 산학 캡스톤디자인 경진대회 · **금상** · 2025.07.01 | [인천 e음 캐시백 정책 시뮬레이션](https://github.com/junhyung-L/incheon-eeum-policy-simulation) | 4인 팀 팀장, 예산 2,000억 원 안의 캐시백 일정 66개 비교 |
+
+전체 11개 프로젝트는 [포트폴리오](https://github.com/junhyung-L/Portfolio/blob/main/README.ko.md)에 있습니다.
 
 [포트폴리오](https://github.com/junhyung-L/Portfolio/blob/main/README.ko.md) · [이력서](https://github.com/junhyung-L/Resume) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:jun010914@inu.ac.kr)
 
@@ -42,31 +43,32 @@
 I build prediction models and decision simulations from customer, policy, and spatial data, and state how far each result holds.
 
 - **Now** Intern, BigData&AI Cell, Hana Financial Convergence Technology Institute (Jul 2026–)
-- **Research** Undergraduate researcher, [DIVE Lab](https://github.com/thekimk/DIVE-Research) (Feb 2025–Feb 2026) — causal-inference and quasi-experimental designs for marketing-fatigue treatment effects
+- **Research** Undergraduate researcher, [DIVE Lab](https://github.com/thekimk/DIVE-Research), Incheon National University (Feb 2025–Feb 2026); first author of the conversion-prediction paper, follow-up causal-inference study on marketing fatigue in progress
 - **Interests** Machine Learning · RecSys · GIS · Causal Inference · XAI
-
-### Awards
-
-| Award | Project | Work |
-|---|---|---|
-| **Grand Prize** · 2024 Forestry Statistics Smart Use Competition (Korea Forest Service & Korea Forestry Promotion Institute, Dec 2024) | [forestry-crop-suitability](https://github.com/junhyung-L/forestry-crop-suitability) | Crop suitability and yield analysis combining GIS, climate, soil, and production data |
-| **Grand Prize** · 2025 PBL Program, Incheon Metropolitan City Mayor Award (Feb 2026) | [dongincheon-marketing-pilot](https://github.com/junhyung-L/dongincheon-marketing-pilot) | Marketing & Data Analysis role; 30-day Madam Tea marketing pilot based on vacant-store data and field research |
-| **Gold Prize** · Industry-Academic Capstone Design Competition, Incheon National University (Jul 2025) | [incheon-eeum-policy-simulation](https://github.com/junhyung-L/incheon-eeum-policy-simulation) | Comparison of 66 budget-constrained cashback policy scenarios |
 
 ### Research
 
-**[Marketing Fatigue and Purchase Conversion Prediction](https://github.com/junhyung-L/crm-conversion-prediction)** — first-author paper, forthcoming in *마케팅연구* (Korean Marketing Association), Nov 2026. From approximately 172 million REES46 multichannel CRM logs (about 1.85 million customers, 1,907 campaigns), I designed purchase-cycle, response-timing, fatigue, and channel-effectiveness features. On the manuscript's original-distribution holdout, XGBoost reached F1 0.3806 and PR-AUC 0.3620. Contacting the top 0.78% of scores captured 95.83% of conversions at a precision of 15.26% (123.7x lift over random sending); this is an offline ranking result, not a measured campaign outcome.
+**[Purchase Conversion Prediction with Dynamic Marketing Knowledge](https://github.com/junhyung-L/crm-conversion-prediction)** · first author, *마케팅연구* (Korean Marketing Association), forthcoming Nov 2026
+
+On 172 million CRM messages with a 0.1234% conversion rate, four groups of theory-based features raised XGBoost PR-AUC from 0.3177 to 0.3620, the best of nine models. The top 0.78% of messages captured 95.83% of conversions (precision 15.26%, 123.7x lift over random, holdout).
 
 ### Selected projects
 
-| Project | Focus | Result (setting) |
+| Project | What I did | Result (setting) |
 |---|---|---|
-| [ctr-sequence-modeling](https://github.com/junhyung-L/ctr-sequence-modeling) | DCN-V2 with DIN/DIEN/BST behaviour-sequence encoders, 262,144 hash buckets | DIEN validation ROC-AUC 0.7413, PR-AUC 0.0792 |
-| [used-ev-price-forecasting](https://github.com/junhyung-L/used-ev-price-forecasting) | Model-based battery-capacity imputation + XGBoost price regression | DACON leaderboard normalized RMSE 0.919 |
-| [credit-card-customer-segmentation](https://github.com/junhyung-L/credit-card-customer-segmentation) | Missingness-aware segmentation over 2,400,000 training rows and 857 features | Stacking weighted F1 0.8936 on a 20k validation sample |
-| [ai-interview-simulator](https://github.com/junhyung-L/ai-interview-simulator) | Next.js roleplay and feedback APIs, separate live-LLM and demo paths | Nine scenarios, optional Supabase session history |
+| [CTR Prediction with DCN-V2 and Behavior-Sequence Encoders](https://github.com/junhyung-L/ctr-sequence-modeling) | Compared DIN, DIEN, and BST sequence encoders on a DCN-V2 backbone | DIEN validation PR-AUC 0.0792 (about 4x random), ROC-AUC 0.7413 |
+| [Credit-Card Customer Segment Classification](https://github.com/junhyung-L/credit-card-customer-segmentation) | Missingness-aware handling and stacking over 2,400,000 training rows and 857 columns | DACON private 0.6251 (58th, top 25%); internal-sample weighted F1 0.8936 vs 0.7026 majority baseline |
+| [Used-EV Price Prediction](https://github.com/junhyung-L/used-ev-price-forecasting) | Separated a battery-capacity imputation model from XGBoost price regression | DACON leaderboard normalized RMSE 0.919 |
 
-Each figure has its own setting (validation, holdout, leaderboard, simulation); splits and data availability are documented in each repository's README. All 11 projects are in the [Portfolio](https://github.com/junhyung-L/Portfolio).
+### Awards
+
+| Competition · Award · Date | Project | Work |
+|---|---|---|
+| 2024 Forestry Statistics Smart Use Competition · **Grand Prize** (Korea Forest Service Commissioner Award) · 13 Dec 2024 | [Forestry Crop Suitability and Yield Analysis](https://github.com/junhyung-L/forestry-crop-suitability) | Suitability and yield analysis for seven crops from GIS soil layers, climate, and production data |
+| 2025 PBL Program · **Grand Prize** (Incheon Metropolitan City Mayor's Award) · 27 Feb 2026 | [Dong-Incheon Marketing Pilot](https://github.com/junhyung-L/dongincheon-marketing-pilot) | Marketing & Data Analysis role; 30-day store pilot built on vacancy data and merchant interviews |
+| 2025 Incheon National University Industry-Academic Capstone Design Competition · **Gold Prize** · 1 Jul 2025 | [Incheon e-Eum Cashback Policy Simulation](https://github.com/junhyung-L/incheon-eeum-policy-simulation) | Team lead of four; compared 66 cashback schedules within a KRW 200 billion budget |
+
+All 11 projects are in the [Portfolio](https://github.com/junhyung-L/Portfolio).
 
 [Portfolio](https://github.com/junhyung-L/Portfolio) · [Resume](https://github.com/junhyung-L/Resume/blob/main/README.en.md) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:jun010914@inu.ac.kr)
 
