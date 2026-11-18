@@ -21,14 +21,14 @@
 
 ## 연구
 
-**[마케팅 피로도와 구매 전환 예측](https://github.com/junhyung-L/crm-conversion-prediction)** — REES46 다채널 CRM 로그 약 1억 7,200만 건(고객 약 185만 명, 캠페인 1,907개)에서 구매 주기·반응 시점·피로도·채널 효과성 피처를 설계했습니다. 원고의 원분포 holdout에서 XGBoost F1 0.3806, PR-AUC 0.3620. 상위 0.78% 선별 시 전환 95.83% 포착·발송 대상 99.22% 감소는 오프라인 모의 선별 결과이며, 실제 비용 절감이나 인과 효과가 아닙니다.
+**[마케팅 피로도와 구매 전환 예측](https://github.com/junhyung-L/crm-conversion-prediction)** — REES46 다채널 CRM 로그 약 1억 7,200만 건(고객 약 185만 명, 캠페인 1,907개)에서 구매 주기·반응 시점·피로도·채널 효과성 피처를 설계했습니다. 원고의 원분포 holdout에서 XGBoost F1 0.3806, PR-AUC 0.3620. 점수 상위 0.78%만 선별하면 전환의 95.83%를 포착하며, 이때 정밀도는 약 15%로 기준 전환율의 약 120배입니다. 오프라인 순위 결과이며 실제 캠페인 성과는 아닙니다.
 
 ## 대표 프로젝트
 
 | 프로젝트 | 구현·분석 초점 | 결과 (측정 조건) |
 |---|---|---|
 | [ctr-sequence-modeling](https://github.com/junhyung-L/ctr-sequence-modeling) | DCN-V2 + DIN·DIEN·BST 행동 시퀀스 인코더, 262,144개 해시 버킷 | DIEN 검증 ROC-AUC 0.7413, PR-AUC 0.0792 |
-| [used-ev-price-forecasting](https://github.com/junhyung-L/used-ev-price-forecasting) | 배터리 용량 모델 기반 대체 + XGBoost 가격 회귀 | 사용자 확인 DACON 정규화 RMSE 0.919 |
+| [used-ev-price-forecasting](https://github.com/junhyung-L/used-ev-price-forecasting) | 배터리 용량 모델 기반 대체 + XGBoost 가격 회귀 | DACON 리더보드 정규화 RMSE 0.919 |
 | [credit-card-customer-segmentation](https://github.com/junhyung-L/credit-card-customer-segmentation) | 학습 240만 행·857개 변수의 결측 처리와 세그먼트 분류 | 2만 건 검증 스태킹 weighted F1 0.8936 |
 | [ai-interview-simulator](https://github.com/junhyung-L/ai-interview-simulator) | Next.js 역할극·피드백 API, 실제 LLM·데모 모드 분리 | 9개 시나리오, 선택적 Supabase 세션 기록 |
 
@@ -55,14 +55,14 @@ I build prediction models and decision simulations from customer, policy, and sp
 
 ### Research
 
-**[Marketing Fatigue and Purchase Conversion Prediction](https://github.com/junhyung-L/crm-conversion-prediction)** — From approximately 172 million REES46 multichannel CRM logs (about 1.85 million customers, 1,907 campaigns), I designed purchase-cycle, response-timing, fatigue, and channel-effectiveness features. On the manuscript's original-distribution holdout, XGBoost reached F1 0.3806 and PR-AUC 0.3620. Selecting the top 0.78% captured 95.83% of conversions with 99.22% fewer candidates; this is an offline ranking simulation, not realised savings or causal uplift.
+**[Marketing Fatigue and Purchase Conversion Prediction](https://github.com/junhyung-L/crm-conversion-prediction)** — From approximately 172 million REES46 multichannel CRM logs (about 1.85 million customers, 1,907 campaigns), I designed purchase-cycle, response-timing, fatigue, and channel-effectiveness features. On the manuscript's original-distribution holdout, XGBoost reached F1 0.3806 and PR-AUC 0.3620. Contacting the top 0.78% of scores captured 95.83% of conversions at a precision of about 15%, roughly 120x the base rate; this is an offline ranking result, not a measured campaign outcome.
 
 ### Selected projects
 
 | Project | Focus | Result (setting) |
 |---|---|---|
 | [ctr-sequence-modeling](https://github.com/junhyung-L/ctr-sequence-modeling) | DCN-V2 with DIN/DIEN/BST behaviour-sequence encoders, 262,144 hash buckets | DIEN validation ROC-AUC 0.7413, PR-AUC 0.0792 |
-| [used-ev-price-forecasting](https://github.com/junhyung-L/used-ev-price-forecasting) | Model-based battery-capacity imputation + XGBoost price regression | User-confirmed DACON normalized RMSE 0.919 |
+| [used-ev-price-forecasting](https://github.com/junhyung-L/used-ev-price-forecasting) | Model-based battery-capacity imputation + XGBoost price regression | DACON leaderboard normalized RMSE 0.919 |
 | [credit-card-customer-segmentation](https://github.com/junhyung-L/credit-card-customer-segmentation) | Missingness-aware segmentation over 2,400,000 training rows and 857 features | Stacking weighted F1 0.8936 on a 20k validation sample |
 | [ai-interview-simulator](https://github.com/junhyung-L/ai-interview-simulator) | Next.js roleplay and feedback APIs, separate live-LLM and demo paths | Nine scenarios, optional Supabase session history |
 
