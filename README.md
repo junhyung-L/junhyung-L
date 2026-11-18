@@ -6,7 +6,7 @@
 - **연구** 인천대학교 [DIVE Lab](https://github.com/thekimk/DIVE-Research) 학부연구생 (2025.02–2026.02), 구매 전환 예측 논문 제1저자, 마케팅 피로도 인과추론 후속 연구 진행 중
 - **관심** Machine Learning · RecSys · GIS · Causal Inference · XAI
 
-[포트폴리오](https://github.com/junhyung-L/Portfolio/blob/main/README.ko.md) · [이력서](https://github.com/junhyung-L/Resume) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:jun010914@inu.ac.kr)
+[포트폴리오](https://github.com/junhyung-L/Portfolio/blob/main/README.ko.md) · [이력서](https://github.com/junhyung-L/Resume) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:junhyunglee.kr@gmail.com)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -36,7 +36,7 @@
 
 전체 11개 프로젝트는 [포트폴리오](https://github.com/junhyung-L/Portfolio/blob/main/README.ko.md)에 있습니다.
 
-[포트폴리오](https://github.com/junhyung-L/Portfolio/blob/main/README.ko.md) · [이력서](https://github.com/junhyung-L/Resume) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:jun010914@inu.ac.kr)
+[포트폴리오](https://github.com/junhyung-L/Portfolio/blob/main/README.ko.md) · [이력서](https://github.com/junhyung-L/Resume) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:junhyunglee.kr@gmail.com)
 
 <details>
 <summary><b>English</b></summary>
@@ -47,7 +47,7 @@ I build prediction models and decision simulations from customer, policy, and sp
 - **Research** Undergraduate researcher, [DIVE Lab](https://github.com/thekimk/DIVE-Research), Incheon National University (Feb 2025–Feb 2026); first author of the conversion-prediction paper, follow-up causal-inference study on marketing fatigue in progress
 - **Interests** Machine Learning · RecSys · GIS · Causal Inference · XAI
 
-[Portfolio](https://github.com/junhyung-L/Portfolio) · [Resume](https://github.com/junhyung-L/Resume/blob/main/README.en.md) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:jun010914@inu.ac.kr)
+[Portfolio](https://github.com/junhyung-L/Portfolio) · [Resume](https://github.com/junhyung-L/Resume/blob/main/README.en.md) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:junhyunglee.kr@gmail.com)
 
 ### Research
 
@@ -72,6 +72,6 @@ On 172 million CRM messages with a 0.1234% conversion rate, four groups of theor
 
 All 11 projects are in the [Portfolio](https://github.com/junhyung-L/Portfolio).
 
-[Portfolio](https://github.com/junhyung-L/Portfolio) · [Resume](https://github.com/junhyung-L/Resume/blob/main/README.en.md) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:jun010914@inu.ac.kr)
+[Portfolio](https://github.com/junhyung-L/Portfolio) · [Resume](https://github.com/junhyung-L/Resume/blob/main/README.en.md) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:junhyunglee.kr@gmail.com)
 
 </details>
