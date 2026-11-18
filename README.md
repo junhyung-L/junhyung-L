@@ -21,7 +21,7 @@
 
 ## 연구
 
-**[마케팅 피로도와 구매 전환 예측](https://github.com/junhyung-L/crm-conversion-prediction)** — REES46 다채널 CRM 로그 약 1억 7,200만 건(고객 약 185만 명, 캠페인 1,907개)에서 구매 주기·반응 시점·피로도·채널 효과성 피처를 설계했습니다. 원고의 원분포 holdout에서 XGBoost F1 0.3806, PR-AUC 0.3620. 점수 상위 0.78%만 선별하면 전환의 95.83%를 포착하며, 이때 정밀도는 약 15%로 기준 전환율의 약 120배입니다. 오프라인 순위 결과이며 실제 캠페인 성과는 아닙니다.
+**[마케팅 피로도와 구매 전환 예측](https://github.com/junhyung-L/crm-conversion-prediction)** — 제1저자 논문, 『마케팅연구』(한국마케팅학회) 2026.11 게재 예정. REES46 다채널 CRM 로그 약 1억 7,200만 건(고객 약 185만 명, 캠페인 1,907개)에서 구매 주기·반응 시점·피로도·채널 효과성 피처를 설계했습니다. 원고의 원분포 holdout에서 XGBoost F1 0.3806, PR-AUC 0.3620. 점수 상위 0.78%만 선별하면 전환의 95.83%를 포착하며, 이때 정밀도는 15.26%로 무작위 발송 대비 123.7배입니다. 오프라인 순위 결과이며 실제 캠페인 성과는 아닙니다.
 
 ## 대표 프로젝트
 
@@ -55,7 +55,7 @@ I build prediction models and decision simulations from customer, policy, and sp
 
 ### Research
 
-**[Marketing Fatigue and Purchase Conversion Prediction](https://github.com/junhyung-L/crm-conversion-prediction)** — From approximately 172 million REES46 multichannel CRM logs (about 1.85 million customers, 1,907 campaigns), I designed purchase-cycle, response-timing, fatigue, and channel-effectiveness features. On the manuscript's original-distribution holdout, XGBoost reached F1 0.3806 and PR-AUC 0.3620. Contacting the top 0.78% of scores captured 95.83% of conversions at a precision of about 15%, roughly 120x the base rate; this is an offline ranking result, not a measured campaign outcome.
+**[Marketing Fatigue and Purchase Conversion Prediction](https://github.com/junhyung-L/crm-conversion-prediction)** — first-author paper, forthcoming in *마케팅연구* (Korean Marketing Association), Nov 2026. From approximately 172 million REES46 multichannel CRM logs (about 1.85 million customers, 1,907 campaigns), I designed purchase-cycle, response-timing, fatigue, and channel-effectiveness features. On the manuscript's original-distribution holdout, XGBoost reached F1 0.3806 and PR-AUC 0.3620. Contacting the top 0.78% of scores captured 95.83% of conversions at a precision of 15.26% (123.7x lift over random sending); this is an offline ranking result, not a measured campaign outcome.
 
 ### Selected projects
 
