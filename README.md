@@ -2,8 +2,8 @@
 
 고객·정책·공간 데이터로 예측 모델과 의사결정 시뮬레이션을 만들고, 각 결과가 어디까지 유효한지 함께 밝힙니다.
 
-- **현재** 하나금융융합기술원 BigData&AI Cell 인턴 (2026.07–)
-- **연구** 인천대학교 [DIVE Lab](https://github.com/thekimk/DIVE-Research) 학부연구생 (2025.02–2026.02), 구매 전환 예측 논문 제1저자, 마케팅 피로도 인과추론 후속 연구 진행 중
+- **현재** 하나금융융합기술원 BigData&AI Cell 인턴 (2026.07–): 주식등급평가모형 재구현 명세서 작성과 AI 보조 재구현 검증, 신용카드 스코어카드 모형 구현, 블록체인 데이터 기반 이상거래탐지(FDS) 분석
+- **연구** 인천대학교 [DIVE Lab](https://github.com/thekimk/DIVE-Research) 학부연구생 (2025.02–2026.02), 구매 전환 예측 논문 제1저자, Ubi-Media 2027 국제학술대회 논문 제2저자(발표 채택), 마케팅 피로도 인과추론 후속 연구 진행 중
 - **관심** Machine Learning · RecSys · GIS · Causal Inference · XAI
 
 [포트폴리오](https://github.com/junhyung-L/Portfolio/blob/main/README.ko.md) · [이력서](https://github.com/junhyung-L/Resume) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:junhyunglee.kr@gmail.com)
@@ -43,8 +43,8 @@
 
 I build prediction models and decision simulations from customer, policy, and spatial data, and state how far each result holds.
 
-- **Now** Intern, BigData&AI Cell, Hana Financial Convergence Technology Institute (Jul 2026–)
-- **Research** Undergraduate researcher, [DIVE Lab](https://github.com/thekimk/DIVE-Research), Incheon National University (Feb 2025–Feb 2026); first author of the conversion-prediction paper, follow-up causal-inference study on marketing fatigue in progress
+- **Now** Intern, BigData&AI Cell, Hana Institute of Technology (Jul 2026–): reimplementation specification for an equity-rating model with AI-assisted reimplementation checks, a credit-card scorecard model, and fraud-detection (FDS) analysis on blockchain data
+- **Research** Undergraduate researcher, [DIVE Lab](https://github.com/thekimk/DIVE-Research), Incheon National University (Feb 2025–Feb 2026); first author of the conversion-prediction paper, second author of a paper accepted for presentation at Ubi-Media 2027, follow-up causal-inference study on marketing fatigue in progress
 - **Interests** Machine Learning · RecSys · GIS · Causal Inference · XAI
 
 [Portfolio](https://github.com/junhyung-L/Portfolio) · [Resume](https://github.com/junhyung-L/Resume/blob/main/README.en.md) · [LinkedIn](https://www.linkedin.com/in/junhyung-lee-data) · [Email](mailto:junhyunglee.kr@gmail.com)
